@@ -30,6 +30,41 @@
 }
 
 .c-parrallax--item_1 {
+    background-image: url("../images/Artboard – 1.png");
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    filter: blur(0.1rem)
+}
+
+.c-parrallax--item_2 {
+    background-image: url('../images/Artboard – 2.png');
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    filter: blur(0.2rem)
+}
+
+.c-parrallax--item_3 {
+    background-image: url('../images/Artboard – 3.png');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.2rem)
+}
+
+.c-parrallax--item_4 {
+    background-image: url('../images/Artboard – 4.png');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.3rem)
+}
+
+.c-parrallax--item_5 {
+    background-image: url('../images/Artboard – 5.png');
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    filter: blur(0.3rem)
+}
+
+/* .c-parrallax--item_1 {
     background-image: url('../images/parrallax01.png');
     background-repeat: no-repeat;
 }
@@ -52,4 +87,4 @@
 .c-parrallax--item_5 {
     background-image: url('../images/parrallax05.png');
     background-repeat: no-repeat;
-}
+} */
