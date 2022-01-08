@@ -14,8 +14,8 @@ const init = () => {
 
             const scale = 0.015
 
-            const x = (window.innerWidth - e.pageX * speed) * scale
-            const y = (window.innerHeight - e.pageY * speed) * scale
+            const x = -(window.innerWidth - e.pageX * speed) * scale
+            const y = -(window.innerHeight - e.pageY * speed) * scale
 
             item.style.transform = `translateX(${x}px) translateY(${y}px)`
             console.log(`translateX(${x}px) translateY(${y}px)`)
